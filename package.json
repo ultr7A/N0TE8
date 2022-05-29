@@ -1,0 +1,37 @@
+{
+  "name": "n0te8",
+  "version": "1.0.0",
+  "description": "Write things,  in sequence, with context.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultr7A/N0TE8.git"
+  },
+  "keywords": [
+    "visual",
+    "programming",
+    "text",
+    "editor",
+    "multimedia",
+    "notation",
+    "virtual",
+    "reality",
+    "webvr",
+    "webxr",
+    "vr",
+    "xr",
+    "augmented",
+    "reality",
+    "database",
+    "spreadsheet"
+  ],
+  "author": "Jeremy Evans <ultr7a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ultr7A/N0TE8/issues"
+  },
+  "homepage": "https://github.com/ultr7A/N0TE8#readme"
+}
