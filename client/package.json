@@ -4,7 +4,9 @@
   "description": "Write things,  in sequence, with context.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
   },
   "repository": {
     "type": "git",
@@ -33,5 +35,18 @@
   "bugs": {
     "url": "https://github.com/ultr7A/N0TE8/issues"
   },
-  "homepage": "https://github.com/ultr7A/N0TE8#readme"
+  "homepage": "https://github.com/ultr7A/N0TE8#readme",
+  "devDependencies": {
+    "@babylonjs/core": "^4.2.1",
+    "@babylonjs/inspector": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "wrapt.co_re": "^1.1.12"
+  }
 }
