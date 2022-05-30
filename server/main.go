@@ -8,14 +8,14 @@ import (
 )
 
 func main() {
-	fmt.Printf("Starting server at port 9091 \n")
+	fmt.Printf("Starting server at port 7080 \n")
 
 	fileServer := http.FileServer(http.Dir("./client/dist"))
 	http.Handle("/", fileServer)
 
 	http.HandleFunc("/console", netconsole)
 
-	if err := http.ListenAndServe(":9091", nil); err != nil {
+	if err := http.ListenAndServe(":7080", nil); err != nil {
 		log.Fatal(err)
 	}
 
