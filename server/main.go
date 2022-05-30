@@ -10,7 +10,7 @@ import (
 func main() {
 	fmt.Printf("Starting server at port 7080 \n")
 
-	fileServer := http.FileServer(http.Dir("./client/dist"))
+	fileServer := http.FileServer(http.Dir("../client/dist"))
 	http.Handle("/", fileServer)
 
 	http.HandleFunc("/console", netconsole)
