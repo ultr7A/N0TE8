@@ -4,8 +4,10 @@ export enum ContextType {
 
     TREE  = "TREE",
     
-    TABLE = "TABLE",
-    
     NATURAL_LANGUAGE = "NATURAL_LANGUAGE",
-    SOURCE_CODE      = "SOURCE_CODE"
+    SOURCE_CODE      = "SOURCE_CODE",
+
+    TABLE = "TABLE",
+
+    GRAPH = "GRAPH"
 }
