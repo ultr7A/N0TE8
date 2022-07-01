@@ -1,9 +1,8 @@
 import { HemisphericLight, Scene, Vector3 , Color4, Engine, WebXRInputSource } from "@babylonjs/core";
 
 import { makeGround } from "./world/ground";
-import { NetConsole } from "../../util/netconsole";
-import { makeBox } from "../object/box";
-import { makeCamera } from "../../user/camera";
+import { makeBox } from "../object/instrument/experimental/box";
+import { makeCamera } from "../../../operators/driver/user/camera";
 
 export const createScene   = function(engine: Engine, canvas: HTMLCanvasElement) {
             

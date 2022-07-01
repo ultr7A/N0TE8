@@ -1,6 +1,6 @@
 
 import { StandardMaterial, BoxBuilder, Color3, ActionManager, ExecuteCodeAction } from "@babylonjs/core";
-import { NetConsole } from "../../util/netconsole";
+import { NetConsole } from "../../../../util/netconsole";
 
 
 const setBoxActions = function(_scene, _box) {

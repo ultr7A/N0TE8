@@ -1,7 +1,12 @@
 import { EditorContext } from "./0_1_context.interface.js";
-import { EditorContextTraversal, EditorContextTraversalRange } from "./0_2_context-traversal.js";
+import { EditorContextTraversal } from "./0_2_context-traversal.js";
+import { XYContextCoords } from "./0_3_context-coords.interface.js";
 
-export class NaturalLanguageContext implements EditorContext {
+interface NLContextCoords extends XYContextCoords { 
+
+} 
+
+export class NaturalLanguageContext implements EditorContext<NLContextCoords> {
     public read(): any {
 
     }
@@ -11,11 +16,11 @@ export class NaturalLanguageContext implements EditorContext {
     }
 
 
-    public traverse(through: EditorContextTraversal) {
+    public traverse(through: EditorContextTraversal<NLContextCoords>) {
 
     }
 
-    public select(from: EditorContextTraversalRange, to: EditorContextTraversalRange) {
+    public select(from: EditorContextTraversal<NLContextCoords>, to: EditorContextTraversal<NLContextCoords>) {
 
     }
 

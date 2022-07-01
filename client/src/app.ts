@@ -1,7 +1,7 @@
 import { Engine } from "@babylonjs/core";
 import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
-import { createScene } from "./editor/environment/space";
+import { createScene } from "./editor_ 🚁🖌/universe_ ✨🦄/space";
 
 
 const canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;

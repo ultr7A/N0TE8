@@ -1,5 +1,6 @@
 import { Vector3, WebXRDefaultExperience } from "@babylonjs/core";
-import { NetConsole } from "../util/netconsole";
+import { NetConsole } from "../../../editor_ 🚁🖌/util/netconsole";
+
 // const xr_ids = motionController.getComponentIds();
 // let triggerComponent = motionController.getComponent(xr_ids[0]);//xr-standard-trigger
 // triggerComponent.onButtonStateChangedObservable.add(() => {
