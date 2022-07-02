@@ -1,6 +1,14 @@
 {
+    //
+    "files.associations": {
+        "*.wrapt.org": "java",
+        "*.wr":        "java"
+    },
+    
+    //
     "editor.fontFamily": "'JetBrains Mono',  'monospace', monospace",
     "editor.fontWeight": "300",
     "editor.minimap.renderCharacters": false,
-    "workbench.colorTheme": "Freshcut (rainglow)"
+    "workbench.colorTheme": "Freshcut (rainglow)",
+    
 }

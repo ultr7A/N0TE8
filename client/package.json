@@ -47,6 +47,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "wrapt.co_re": "^1.1.12"
+    "meta.gl": "^0.1.23",
+    "wrapt.co_re": "^1.1.64"
   }
 }

@@ -1,4 +1,4 @@
-import { UIDataComponent } from "./0_ui-component.js";
+import { UIDataComponent } from "./0_component.ui.js";
 
 export class UIImage implements UIDataComponent {
 

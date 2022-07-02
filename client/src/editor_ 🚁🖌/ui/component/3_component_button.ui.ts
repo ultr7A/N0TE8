@@ -1,4 +1,4 @@
-import { UIControlComponent } from "./0_ui-component.js";
+import { UIControlComponent } from "./0_component.ui.js";
 
 export class UIButton<Signal = void> implements UIControlComponent {
 

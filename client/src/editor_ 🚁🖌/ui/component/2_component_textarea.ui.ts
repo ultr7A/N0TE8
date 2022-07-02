@@ -1,4 +1,4 @@
-import { UIControlComponent, UIDataComponent } from "./0_ui-component.js";
+import { UIControlComponent, UIDataComponent } from "./0_component.ui.js";
 
 export class UITextarea<Data = string> implements UIDataComponent, UIControlComponent {
 

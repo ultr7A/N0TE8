@@ -1,0 +1,17 @@
+/**
+ *
+ * Visual Concept
+ *
+ **/
+
+export concept Visual {
+
+
+    // some other ConceptOperator(s) ? 
+    projection("/*") {
+
+        return fn(Concept source, Object target) { }
+
+    }
+
+}

@@ -1,0 +1,24 @@
+/**
+ *
+ * [Instrument Visual] Concept
+ *
+ **/
+
+export concept InstrumentVisual {
+
+    Visual handle   = null;
+    Visual controls = null;
+    Visual body     = null;
+
+    projection("/selector") {
+
+        return fn(Concept source, Object target) {
+            // D.I.Y.
+            //
+
+            return target;
+        }
+
+    }
+
+}
