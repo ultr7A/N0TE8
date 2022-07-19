@@ -1,0 +1,11 @@
+/**
+ * 
+ * ServerContentSource 
+ * 
+ * 
+ */
+export interface ServerContentSource {
+
+
+
+}

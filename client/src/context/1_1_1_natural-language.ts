@@ -20,7 +20,10 @@ export class NaturalLanguageContext implements EditorContext<NLContextCoords> {
 
     }
 
-    public select(from: EditorContextTraversal<NLContextCoords>, to: EditorContextTraversal<NLContextCoords>) {
+    public select(
+        from: EditorContextTraversal<NLContextCoords>, 
+        to: EditorContextTraversal<NLContextCoords>
+    ): void {
 
     }
 

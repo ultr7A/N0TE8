@@ -1,23 +1,36 @@
 /**
  *
- * [Instrument Visual] Concept
+ * [ Instrument Visual ]  Concept
+ * ------------------------------------------------------------
+ *
+ * [ Visual ] -> [ InstrumentVisual ] -> [ Object ]
+ * 
  *
  **/
-
 export concept InstrumentVisual {
 
     Visual handle   = null;
     Visual controls = null;
     Visual body     = null;
 
-    projection("/selector") {
+    /**
+     *
+     *
+     *
+     *
+     */
 
-        return fn(Concept source, Object target) {
-            // D.I.Y.
-            //
+    projection("properties: children") {
 
-            return target;
-        }
+        transform(Concept other, array selection) {
+            
+            // [(?)] -> how does a selection change within the transform?
+
+            // add to children
+
+            return selection[0].push(this.handle, this.controls, this.body);
+        } 
+        
 
     }
 

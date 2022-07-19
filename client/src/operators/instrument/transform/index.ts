@@ -11,9 +11,16 @@ export interface TransformInstrumentResult<V = any> extends InstrumentResult<V> 
 
 }
 
+/**
+ * 
+ * 
+ *  TransformInstrument
+ * 
+ * 
+ */
 export interface TransformInstrument <
                     InputParams     extends TransformInstrumentInputParams, 
-                    UsageReturnType extends InstrumentResult<any>
+                    UsageReturnType extends TransformInstrumentResult<any>
                                     >
         extends  Instrument<InputParams, UsageReturnType> {
 

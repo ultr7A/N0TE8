@@ -1,12 +1,16 @@
-import { Vector3, ArcRotateCamera } from "@babylonjs/core";
+import { Vector3, ArcRotateCamera, Scene } from "@babylonjs/core";
 
-export const makeCamera    = function(_canvas, _scene) {
 
-    const alpha     = Math.PI/4;
-    const beta      = Math.PI/3;
-    const radius    = 8;
-    const target    = new Vector3(0, 0, 0);
-    const camera    = new ArcRotateCamera("Camera", alpha, beta, radius, target, _scene);
-            
-    camera.attachControl(_canvas, true);
+export class Camera {
+
+    public static make(scene: Scene, canvas: HTMLCanvasElement) {
+
+        const alpha     = Math.PI/4;
+        const beta      = Math.PI/3;
+        const radius    = 8;
+        const target    = new Vector3(0, 0, 0);
+        const camera    = new ArcRotateCamera("Camera", alpha, beta, radius, target, scene);
+                
+        camera.attachControl(canvas, true);
+    }
 }

@@ -1,6 +1,6 @@
 
 import { StandardMaterial, BoxBuilder, Color3, ActionManager, ExecuteCodeAction } from "@babylonjs/core";
-import { NetConsole } from "../../../../util/netconsole";
+import { NetConsole } from "../../../util/netconsole";
 
 
 const setBoxActions = function(_scene, _box) {
@@ -30,7 +30,7 @@ const setBoxActions = function(_scene, _box) {
 
 
 
-export const makeBox       = function(_scene, x, z) {
+export const makeBox       = function(_scene, x: number, z: number) {
             
     const   box         =    BoxBuilder.CreateBox("box", { size: 1 });
                    

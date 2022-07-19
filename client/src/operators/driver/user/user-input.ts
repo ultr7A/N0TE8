@@ -11,9 +11,13 @@ import { NetConsole } from "../../../editor_ 🚁🖌/util/netconsole";
 //     }
 // });
 
-export function init_user_input(xr: WebXRDefaultExperience) {
-    xr.input.onControllerAddedObservable.add((controller) => {
+export function init_user_input(xr: WebXRDefaultExperience)     {
+
+    xr.input.onControllerAddedObservable.add((controller) =>      {
+    
         controller.onMotionControllerInitObservable.add((motionController) => {
+        
+
             if (motionController.handness === 'left') {
                 const xr_ids = motionController.getComponentIds();
                 let triggerComponent = motionController.getComponent(xr_ids[0]);//xr-standard-trigger

@@ -1,0 +1,10 @@
+/**
+ * 
+ * 
+ * World
+ * 
+ * 
+ */
+export class World {
+
+}

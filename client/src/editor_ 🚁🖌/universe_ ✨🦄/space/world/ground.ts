@@ -1,5 +1,17 @@
 import { MeshBuilder } from "@babylonjs/core";
 
-export const makeGround    = function()      {
-    return MeshBuilder.CreateGround("ground", {width: 16, height: 16});
+/**
+ * 
+ * Ground Object 
+ * 
+ */
+export class GroundObject {
+    
+
+    public static makeGround()      {
+    
+        return MeshBuilder.CreateGround("ground", {width: 16, height: 16});
+    }
+
+    
 }
